@@ -1,0 +1,10 @@
+.enviar{
+    display: inline;
+    background-color: rgb(21, 206, 21);
+    font-size: 20px;
+}
+
+.enviar:active
+{
+    background-color: rgb(21, 135, 21)
+}

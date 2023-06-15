@@ -1,0 +1,30 @@
+img{
+ display: inline-flex;
+    flex-direction: row;
+}
+
+.about{
+    text-align: center;
+    color: burlywood;
+    background-color: coral;
+    font-size: 40px;
+}
+
+.about:hover{
+    text-align: center;
+    color: burlywood;
+    background-color: coral;
+    animation-name: animacion;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes animacion {
+    0% {
+      font-size: 40px;
+    }
+    100% {
+      font-size: 60px;
+    }
+  }
